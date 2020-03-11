@@ -1,0 +1,12 @@
+{
+  "links": {
+    "italian": "ITA",
+    "english": "ENG"
+  },
+  "home": {
+    "title": "Medboat",
+    "boat": "Scegli la tua Barca",
+    "harbour": "Scegli il tuo porto",
+    "desc": "Suspendisse faucibus, nunc et pellentesque egestas, lacus ante convallis tellus."
+  }
+}

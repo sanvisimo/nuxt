@@ -1,0 +1,28 @@
+{
+  "name": "Medboat",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Configuratore Medboat",
+  "author": "Simone Sanvito",
+  "scripts": {
+    "build": "nuxt build",
+    "test": "jest",
+    "dev": "nuxt",
+    "generate": "nuxt generate",
+    "start": "nuxt start"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/dotenv": "^1.4.0",
+    "@nuxtjs/pwa": "^3.0.0-0",
+    "nuxt": "^2.0.0",
+    "vue-i18n": "^8.15.5"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.0.0",
+    "@vue/test-utils": "^1.0.0-beta.27",
+    "babel-jest": "^24.1.0",
+    "jest": "^24.1.0",
+    "vue-jest": "^4.0.0-0"
+  }
+}

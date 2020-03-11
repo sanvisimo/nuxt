@@ -1,0 +1,10 @@
+{
+  "links": {
+    "italian": "ITA",
+    "english": "ENG"
+  },
+  "home": {
+    "title": "Medboat",
+    "desc": "Boats"
+  }
+}

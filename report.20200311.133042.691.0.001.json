@@ -1,0 +1,448 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200311.133042.691.0.001.json",
+    "dumpEventTime": "2020-03-11T13:30:42Z",
+    "dumpEventTimeStamp": "1583929842309",
+    "processId": 691,
+    "cwd": "/d/Progetti/Medboat/Configuratore",
+    "commandLine": [
+      "/home/sanvisimo/.nvm/versions/node/v13.2.0/bin/node",
+      "/d/Progetti/Medboat/Configuratore/node_modules/.bin/nuxt"
+    ],
+    "nodejsVersion": "v13.2.0",
+    "glibcVersionRuntime": "2.27",
+    "glibcVersionCompiler": "2.17",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "linux",
+    "componentVersions": {
+      "node": "13.2.0",
+      "v8": "7.9.317.23-node.20",
+      "uv": "1.33.1",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "79",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "1.1.4",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "headersUrl": "https://nodejs.org/download/release/v13.2.0/node-v13.2.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v13.2.0/node-v13.2.0.tar.gz"
+    },
+    "osName": "Linux",
+    "osRelease": "4.4.0-18362-Microsoft",
+    "osVersion": "#476-Microsoft Fri Nov 01 16:53:00 PST 2019",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz",
+        "speed": 2808,
+        "user": 8281800,
+        "nice": 0,
+        "sys": 6110100,
+        "idle": 53725900,
+        "irq": 1109500
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz",
+        "speed": 2808,
+        "user": 6451500,
+        "nice": 0,
+        "sys": 3239000,
+        "idle": 58427300,
+        "irq": 212300
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz",
+        "speed": 2808,
+        "user": 11231800,
+        "nice": 0,
+        "sys": 4643200,
+        "idle": 52242800,
+        "irq": 105000
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz",
+        "speed": 2808,
+        "user": 7522000,
+        "nice": 0,
+        "sys": 2768700,
+        "idle": 57827100,
+        "irq": 62800
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz",
+        "speed": 2808,
+        "user": 9868400,
+        "nice": 0,
+        "sys": 3845000,
+        "idle": 54404500,
+        "irq": 66500
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz",
+        "speed": 2808,
+        "user": 6438500,
+        "nice": 0,
+        "sys": 2800100,
+        "idle": 58879200,
+        "irq": 35100
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz",
+        "speed": 2808,
+        "user": 8683900,
+        "nice": 0,
+        "sys": 3614800,
+        "idle": 55819200,
+        "irq": 60700
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz",
+        "speed": 2808,
+        "user": 9534800,
+        "nice": 0,
+        "sys": 4053400,
+        "idle": 54529600,
+        "irq": 45400
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "eth3",
+        "internal": false,
+        "mac": "00:15:5d:74:8a:39",
+        "address": "192.168.151.225",
+        "netmask": "255.255.255.240",
+        "family": "IPv4"
+      },
+      {
+        "name": "eth3",
+        "internal": false,
+        "mac": "00:15:5d:74:8a:39",
+        "address": "fe80::298c:9643:4eb6:1a54",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 30
+      },
+      {
+        "name": "lo",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "lo",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "wifi0",
+        "internal": false,
+        "mac": "e4:70:b8:de:bd:18",
+        "address": "192.168.0.152",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "wifi0",
+        "internal": false,
+        "mac": "e4:70:b8:de:bd:18",
+        "address": "fe80::6891:9800:46d7:f1cb",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 25
+      }
+    ],
+    "host": "SANVI"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x0000000000b16525",
+      "symbol": "report::TriggerNodeReport(v8::Isolate*, node::Environment*, char const*, char const*, std::string const&, v8::Local<v8::String>) [/home/sanvisimo/.nvm/versions/node/v13.2.0/bin/node]"
+    },
+    {
+      "pc": "0x00000000009f261c",
+      "symbol": "node::OnFatalError(char const*, char const*) [/home/sanvisimo/.nvm/versions/node/v13.2.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000000b4c04e",
+      "symbol": "v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, bool) [/home/sanvisimo/.nvm/versions/node/v13.2.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000000b4c3c9",
+      "symbol": "v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, bool) [/home/sanvisimo/.nvm/versions/node/v13.2.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000000cf9ee5",
+      "symbol": " [/home/sanvisimo/.nvm/versions/node/v13.2.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000000cfa576",
+      "symbol": "v8::internal::Heap::RecomputeLimits(v8::internal::GarbageCollector) [/home/sanvisimo/.nvm/versions/node/v13.2.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000000d0978f",
+      "symbol": "v8::internal::Heap::PerformGarbageCollection(v8::internal::GarbageCollector, v8::GCCallbackFlags) [/home/sanvisimo/.nvm/versions/node/v13.2.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000000d0a615",
+      "symbol": "v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [/home/sanvisimo/.nvm/versions/node/v13.2.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000000d0d0ac",
+      "symbol": "v8::internal::Heap::AllocateRawWithRetryOrFailSlowPath(int, v8::internal::AllocationType, v8::internal::AllocationOrigin, v8::internal::AllocationAlignment) [/home/sanvisimo/.nvm/versions/node/v13.2.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000000cd3b94",
+      "symbol": "v8::internal::Factory::NewFillerObject(int, bool, v8::internal::AllocationType, v8::internal::AllocationOrigin) [/home/sanvisimo/.nvm/versions/node/v13.2.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000001020cce",
+      "symbol": "v8::internal::Runtime_AllocateInYoungGeneration(int, unsigned long*, v8::internal::Isolate*) [/home/sanvisimo/.nvm/versions/node/v13.2.0/bin/node]"
+    },
+    {
+      "pc": "0x00000000013a1179",
+      "symbol": " [/home/sanvisimo/.nvm/versions/node/v13.2.0/bin/node]"
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2157780992,
+    "totalCommittedMemory": 2155296736,
+    "usedMemory": 2138626080,
+    "availableMemory": 48032016,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 33328,
+        "capacity": 33040,
+        "used": 33040,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 8388608,
+        "committedMemory": 6293432,
+        "capacity": 4189696,
+        "used": 395552,
+        "available": 3794144
+      },
+      "old_space": {
+        "memorySize": 1761710080,
+        "committedMemory": 1761683128,
+        "capacity": 1752989136,
+        "used": 1752975264,
+        "available": 13872
+      },
+      "code_space": {
+        "memorySize": 4886528,
+        "committedMemory": 4754368,
+        "capacity": 4184064,
+        "used": 4184064,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 18092032,
+        "committedMemory": 18090880,
+        "capacity": 17544240,
+        "used": 17544240,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 363532288,
+        "committedMemory": 363532288,
+        "capacity": 362678016,
+        "used": 362678016,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 909312,
+        "committedMemory": 909312,
+        "capacity": 815904,
+        "used": 815904,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 4189696,
+        "used": 0,
+        "available": 4189696
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 423.094,
+    "kernelCpuSeconds": 65.5156,
+    "cpuConsumptionPercent": 46.6676,
+    "maxRss": 2214400000,
+    "pageFaults": {
+      "IORequired": 0,
+      "IONotRequired": 2026315
+    },
+    "fsActivity": {
+      "reads": 0,
+      "writes": 0
+    }
+  },
+  "uvthreadResourceUsage": {
+    "userCpuSeconds": 185.562,
+    "kernelCpuSeconds": 39.4375,
+    "cpuConsumptionPercent": 21.49,
+    "fsActivity": {
+      "reads": 0,
+      "writes": 0
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "LESSOPEN": "| /usr/bin/lesspipe %s",
+    "USER": "sanvisimo",
+    "npm_package_devDependencies_jest": "^24.1.0",
+    "npm_config_version_commit_hooks": "true",
+    "npm_config_user_agent": "yarn/1.19.1 npm/? node/v13.2.0 linux x64",
+    "npm_config_bin_links": "true",
+    "npm_node_execpath": "/home/sanvisimo/.nvm/versions/node/v13.2.0/bin/node",
+    "npm_package_devDependencies_vue_jest": "^4.0.0-0",
+    "npm_config_init_version": "1.0.0",
+    "SHLVL": "1",
+    "HOME": "/home/sanvisimo",
+    "OLDPWD": "/home/sanvisimo",
+    "NVM_BIN": "/home/sanvisimo/.nvm/versions/node/v13.2.0/bin",
+    "npm_config_init_license": "MIT",
+    "YARN_WRAP_OUTPUT": "false",
+    "npm_package_devDependencies__nuxtjs_vuetify": "^1.0.0",
+    "npm_config_version_tag_prefix": "v",
+    "npm_package_dependencies__nuxtjs_pwa": "^3.0.0-0",
+    "WSL_DISTRO_NAME": "Ubuntu",
+    "npm_package_description": "Configuratore Medboat",
+    "NVM_DIR": "/home/sanvisimo/.nvm",
+    "npm_package_readmeFilename": "README.md",
+    "npm_package_dependencies_nuxt": "^2.0.0",
+    "npm_package_devDependencies_babel_jest": "^24.1.0",
+    "npm_package_scripts_dev": "nuxt",
+    "LOGNAME": "sanvisimo",
+    "NAME": "SANVI",
+    "_": "/home/sanvisimo/.yarn/bin/yarn",
+    "npm_package_private": "true",
+    "npm_config_registry": "https://registry.yarnpkg.com",
+    "TERM": "xterm-256color",
+    "npm_package_scripts_start": "nuxt start",
+    "npm_config_ignore_scripts": "",
+    "PATH": "/tmp/yarn--1583928794367-0.7870435732790917:/d/Progetti/Medboat/Configuratore/node_modules/.bin:/home/sanvisimo/.config/yarn/link/node_modules/.bin:/home/sanvisimo/.nvm/versions/node/v13.2.0/libexec/lib/node_modules/npm/bin/node-gyp-bin:/home/sanvisimo/.nvm/versions/node/v13.2.0/lib/node_modules/npm/bin/node-gyp-bin:/home/sanvisimo/.nvm/versions/node/v13.2.0/bin/node_modules/npm/bin/node-gyp-bin:/home/sanvisimo/.local/bin:/home/sanvisimo/bin:/home/sanvisimo/.yarn/bin:/home/sanvisimo/.config/yarn/global/node_modules/.bin:~/.npm/bin:/home/sanvisimo/.nvm/versions/node/v13.2.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/c/Program Files/WindowsApps/CanonicalGroupLimited.UbuntuonWindows_1804.2020.5.0_x64__79rhkp1fndgsc:/c/Program Files (x86)/Microsoft SDKs/Azure/CLI2/wbin:/c/Windows/system32:/c/Windows:/c/Windows/System32/Wbem:/c/Windows/System32/WindowsPowerShell/v1.0/:/c/Windows/System32/OpenSSH/:/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/c/Program Files (x86)/Calibre2/:/c/ProgramData/chocolatey/bin:/c/MinGW/msys/1.0/bin:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/c/WINDOWS/System32/OpenSSH/:/c/Program Files/Amazon/AWSCLI/bin/:/c/cmder/bin:/c/tools/php73:/c/Program Files (x86)/GnuWin32/bin:/c/Program Files/PuTTY/:/c/Program Files/nodejs/:/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/c/Program Files (x86)/Yarn/bin/:/c/Program Files/Calibre2/:/c/Program Files/Intel/WiFi/bin/:/c/Program Files/Common Files/Intel/WirelessCommon/:/c/Program Files/Git/cmd:/c/Program Files/Docker/Docker/resources/bin:/c/ProgramData/DockerDesktop/version-bin:/c/Users/sanvi/AppData/Local/Microsoft/WindowsApps:/c/Users/sanvi/AppData/Local/Programs/Microsoft VS Code/bin:/c/Users/sanvi/AppData/Local/Programs/Fiddler:/c/Users/sanvi/AppData/Local/GitHubDesktop/bin:/c/Users/sanvi/AppData/Roaming/Composer/vendor/bin:/c/Users/sanvi/AppData/Roaming/npm:/c/Users/sanvi/AppData/Local/Microsoft/WindowsApps:/c/Users/sanvi/AppData/Local/Yarn/bin:/snap/bin",
+    "NODE": "/home/sanvisimo/.nvm/versions/node/v13.2.0/bin/node",
+    "npm_package_name": "Medboat",
+    "LANG": "C.UTF-8",
+    "npm_package_devDependencies__vue_test_utils": "^1.0.0-beta.27",
+    "LS_COLORS": "rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:",
+    "npm_lifecycle_script": "nuxt",
+    "npm_package_scripts_test": "jest",
+    "npm_config_version_git_message": "v%s",
+    "SHELL": "/bin/bash",
+    "npm_lifecycle_event": "dev",
+    "npm_package_dependencies__nuxtjs_dotenv": "^1.4.0",
+    "npm_package_version": "1.0.0",
+    "npm_config_argv": "{\"remain\":[],\"cooked\":[\"run\",\"dev\"],\"original\":[\"dev\"]}",
+    "npm_package_dependencies_vue_i18n": "^8.15.5",
+    "npm_package_scripts_build": "nuxt build",
+    "LESSCLOSE": "/usr/bin/lesspipe %s %s",
+    "DOCKER_HOST": "tcp://localhost:2375",
+    "npm_config_version_git_tag": "true",
+    "npm_config_version_git_sign": "",
+    "npm_package_scripts_generate": "nuxt generate",
+    "npm_config_strict_ssl": "true",
+    "PWD": "/d/Progetti/Medboat/Configuratore",
+    "npm_execpath": "/home/sanvisimo/.yarn/bin/yarn.js",
+    "NVM_CD_FLAGS": "",
+    "XDG_DATA_DIRS": "/usr/local/share:/usr/share:/var/lib/snapd/desktop",
+    "npm_package_author_name": "Simone Sanvito",
+    "npm_config_save_prefix": "^",
+    "npm_config_ignore_optional": "",
+    "npm_package_dependencies__nuxtjs_axios": "^5.3.6",
+    "HOSTTYPE": "x86_64",
+    "INIT_CWD": "/d/Progetti/Medboat/Configuratore",
+    "WSLENV": "",
+    "NODE_ENV": "development",
+    "_AXIOS_BASE_URL_": "http://localhost:3000/",
+    "VUE_ENV": "server"
+  },
+  "userLimits": {
+    "core_file_size_blocks": {
+      "soft": 0,
+      "hard": "unlimited"
+    },
+    "data_seg_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "file_size_blocks": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_locked_memory_bytes": {
+      "soft": 65536,
+      "hard": 65536
+    },
+    "max_memory_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "open_files": {
+      "soft": 65536,
+      "hard": 65536
+    },
+    "stack_size_bytes": {
+      "soft": 8388608,
+      "hard": 8388608
+    },
+    "cpu_time_seconds": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_user_processes": {
+      "soft": 7823,
+      "hard": 7823
+    },
+    "virtual_memory_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    }
+  },
+  "sharedObjects": [
+    "linux-vdso.so.1",
+    "/lib/x86_64-linux-gnu/libdl.so.2",
+    "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+    "/lib/x86_64-linux-gnu/libm.so.6",
+    "/lib/x86_64-linux-gnu/libgcc_s.so.1",
+    "/lib/x86_64-linux-gnu/libpthread.so.0",
+    "/lib/x86_64-linux-gnu/libc.so.6",
+    "/lib64/ld-linux-x86-64.so.2",
+    "/lib/x86_64-linux-gnu/libnss_files.so.2",
+    "/d/Progetti/Medboat/Configuratore/node_modules/fibers/bin/linux-x64-79-glibc/fibers.node"
+  ]
+}
