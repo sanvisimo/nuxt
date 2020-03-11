@@ -3,7 +3,7 @@
     <v-row justify="space-around" align="stretch">
       <v-col
         cols="4"
-        class="d-flex justify-center align-center colonne"
+        class="d-flex justify-center align-center choice"
         v-for="(el, i) in elements"
         :key="i"
       >
@@ -42,7 +42,7 @@ export default {
 </script>
 
 <style lang="scss">
-.colonne {
+.choice {
   border: 1px solid #000;
 }
 </style>
